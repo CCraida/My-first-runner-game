@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class PlayController : MonoBehaviour
 {
-    float max_speed = 10f;
+    float max_speed = 11f;
     Rigidbody2D rb;
     Vector2 right_force = new Vector2(10f,0);
     Vector2 left_force = new Vector2(-10f,0);
